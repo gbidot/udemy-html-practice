@@ -1,0 +1,20 @@
+h2 {
+    color:fuchsia
+}
+
+h1 {
+    font-weight: bolder;
+    color:indigo;
+    font-size: 50px;
+    background-color:limegreen
+}
+
+button {
+    color:gold;
+    border-color: midnightblue;
+    background: deepskyblue;
+}
+
+p {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
