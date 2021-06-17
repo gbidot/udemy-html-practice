@@ -66,9 +66,11 @@
     <hr>
     <h2>More Inputs!</h2>
     <form action="/birds">
+        <!-- checkbox example -->
         <input type="checkbox" name="agrees_to" id="agree">
         <label for="agree">I agree to everything</label>
         <p>
+            <!-- radio button example -->
             <label for="xs">XS:</label>
             <input type="radio" name="size" id="xs" value="xs">
             <label for="s">S:</label>
@@ -77,6 +79,7 @@
             <input type="radio" name="size" id="m" value="m">
         </p>
         <p>
+            <!-- Drop down list/menu example -->
             <label for="meal">Please select an entree</label>
             <select name="meal" id="meal">
                 <option value="fish">Salmon</option>
@@ -85,12 +88,14 @@
             </select>
         </p>
         <p>
+            <!-- slider example -->
             <label for="cheese">Amount of Cheese</label>
             <!-- min shows minimum value, max shows maximum, step is how much the range increases or decreases per slide, value is starting value name ties to backend server -->
             <input type="range" id="cheese" min="0" max="100" step="10" value="0" name="cheese_level">
         </p>
 
         <p>
+            <!-- textbox example -->
             <label for="requests">Any special requests?</label>
             <br>
             <textarea name="requests" id="requests" cols="30" rows="10">Type something here</textarea>
